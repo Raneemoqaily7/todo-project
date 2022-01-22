@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header{
+  background-color: rgb(245, 234, 234);
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.navg a{
+  color: rgba(6, 87, 158, 0.904);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 100px;
+ 
+  
+}
+.navg a:hover{
+  color: rgb(17, 17, 211);
+
+}
+section{
+  padding: 100px 200px;
+}
+
+.main{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items:center ;
+}
+
+.content-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+ min-width: 400px;
+}
+
+.content-table thead tr{
+  background-color: rgb(39, 168, 95);
+  color: aliceblue;
+  text-align: left;
+  font-weight: bold;
+}
+.content-table th,
+.content-table td{
+  padding: 12px 15px;
+}
+.content-table tbody tr{
+  border-bottom: 1px solid ;
+}
+.content-table tbody tr:last-of-type{
+  border-bottom: 2px solid rgb(20, 161, 143);
+}
+.content-table input[type="text"]{
+  background-color: rgb(51, 121, 51);
+}
+footer {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 50px;
+}
+
+#pic{
+  height: 200px;
+  width: 150px;
+float: left;
+
+}
+h1{
+  text-align: center;
+}
+#para{
+  border: 1px solid black;
+}
+.form{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+  }
+  
+  
+
+
+input{
+  border: 2px solid red;
+  border-radius: 4px;
+  padding: 8px 10px;
+  margin: 4px 0;
+
+}
+button{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: rgb(11, 37, 71);
+  color: aliceblue;
+}
