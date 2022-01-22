@@ -1,3 +1,3 @@
 # todo-project
-![home wireframe](assets/aboutwireframe.png)
+![home wireframe](assets/indexwireframe.png)
 ![About wireframe](assets/aboutwireframe.png)
