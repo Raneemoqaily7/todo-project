@@ -5,7 +5,7 @@
   scroll-behavior: smooth;
 }
 header{
-  background-color: rgb(245, 234, 234);
+  background-color: grey;
   width: 100%;
   position: fixed;
   display: flex;
@@ -15,7 +15,7 @@ header{
 }
 
 .navg a{
-  color: rgba(6, 87, 158, 0.904);
+  color: black;
   text-decoration: none;
   font-size: 1.1em;
   font-weight: 500;
@@ -27,6 +27,15 @@ header{
   color: rgb(17, 17, 211);
 
 }
+#home{
+  margin-right: 100px;
+  margin-left: 50px;
+}
+#about{
+  margin-right: 200px;
+  margin-left: 20px;
+
+}
 section{
   padding: 100px 200px;
 }
@@ -34,7 +43,7 @@ section{
 .main{
   width: 100%;
   min-height: 100vh;
-  display: flex;
+  display: inline-block;
   align-items:center ;
 }
 
@@ -43,6 +52,7 @@ section{
   margin: 25px 0;
   font-size: 0.9em;
  min-width: 400px;
+ margin-left: 250px;
 }
 
 .content-table thead tr{
@@ -64,6 +74,18 @@ section{
 .content-table input[type="text"]{
   background-color: rgb(51, 121, 51);
 }
+#active{
+  background-color: green;
+  border-color: green;
+}
+#not-active{
+  background-color: rgb(201, 23, 23);
+}
+
+
+#staticform{margin-left: 35%;
+  margin-top: 10px;
+}
 footer {
   
   display: flex;
@@ -75,19 +97,32 @@ footer {
   width: 100%;
   padding: 10px 50px;
 }
-
+#name{color:red}
+#contact{color:rgb(105, 20, 20)}
 #pic{
-  height: 200px;
-  width: 150px;
+  height: 250px;
+  width: 200px;
 float: left;
+margin-right: 50px;
+border-radius: 80%;
+
 
 }
+.img{display: flex;
+margin-top: 50px;}
 h1{
   text-align: center;
 }
 #para{
-  border: 1px solid black;
-}
+ 
+  margin-left: 30px;
+  margin-top: 30px;
+  }
+  .parabox{
+    width: 600px;
+    border: 1px solid black;
+  
+  }
 .form{
   width: 100%;
   padding: 12px 20px;
@@ -96,8 +131,27 @@ h1{
   
   }
   
-  
+  #email{margin-left: 65px;
+    
+    border-color :rgb(173, 159, 159);
+    width: 60%;
+  }
 
+#first{margin-left: 35px;
+  width: 60%;
+  border-color :rgb(173, 159, 159);
+}
+#last{margin-left: 35px;
+  width: 60%;
+  border-color :rgb(173, 159, 159);
+}
+#message{margin-left: 45px;
+  width: 60%;
+  height: 70%;
+  border-color :rgb(173, 159, 159);
+  padding: 50px 40px; line-height: 100px;
+
+}
 
 input{
   border: 2px solid red;
@@ -111,6 +165,7 @@ button{
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  background-color: rgb(11, 37, 71);
+  background-color: rgb(199, 15, 206);
   color: aliceblue;
+  margin-left: 140px;
 }
